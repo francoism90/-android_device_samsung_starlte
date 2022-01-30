@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="aod.on">20</item>
+    <item name="ambient.on">21</item>
     <item name="screen.on">72</item>
-    <item name="screen.full">273</item>
-    <item name="dsp.audio">35</item>
-    <item name="dsp.video">181</item>
-    <item name="camera.flashlight">86</item>
-    <item name="camera.avg">442</item>
-    <item name="gps.on">38</item>
-    <item name="radio.active">178</item>
-    <item name="radio.scanning">74</item>
+    <item name="screen.full">339</item>
+    <item name="audio">35</item>
+    <item name="video">176</item>
+    <item name="camera.flashlight">107</item>
+    <item name="camera.avg">417</item>
+    <item name="gps.on">31</item>
+    <item name="radio.active">171</item>
+    <item name="radio.scanning">114</item>
     <array name="radio.on">
-        <value>8.9</value>
-        <value>8.9</value>
+        <value>7.7</value>
+        <value>7.7</value>
     </array>
     <item name="modem.controller.idle">0</item>
     <item name="modem.controller.rx">0</item>
@@ -91,9 +91,10 @@
         <value>111</value>
         <value>101</value>
     </array>
-    <item name="cpu.suspend">3.7</item>
-    <item name="cpu.idle">17</item>
+    <item name="cpu.suspend">4.99</item>
+    <item name="cpu.idle">20</item>
     <item name="battery.capacity">3000</item>
+    <item name="battery.typical.capacity">3000</item>
     <item name="wifi.controller.idle">1</item>
     <item name="wifi.controller.rx">65</item>
     <item name="wifi.controller.tx">265</item>
@@ -126,5 +127,39 @@
         <value>455</value>
         <value>546</value>
         <value>572</value>
+    </array>
+    <array name="speaker.media">
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+    </array>
+    <array name="speaker.call">
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
     </array>
 </device>
